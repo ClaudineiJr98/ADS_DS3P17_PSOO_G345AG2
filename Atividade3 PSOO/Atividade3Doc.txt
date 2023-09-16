@@ -1,0 +1,22 @@
+Classe Paciente:
+ID do Paciente
+Nome completo do paciente
+Idade do paciente
+Sexo do Paciente
+Endereço do PAciente
+
+Classe Médico
+CRM (Documento) do médico
+Nome completo do Médico
+Especialidade do Médico
+
+Classe Consulta
+ID da Consulta
+Data e hora da consulta
+Medico responsável pela consulta
+Paciente da consulta
+
+Relacionamentos: 
+Paciente -> Consulta - Relacionamento de um para muitos, um paciente pode ter várias
+consultas, mas uma consulta tem apenas um paciente.
+Medico -> Consulta - Relacionamneto de um para muitos, um médico pode ter várias consultas, mas uma consulta pertece a apenas um médico.
